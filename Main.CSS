@@ -24,7 +24,7 @@ body {
 }
 
 .text-primary1 {
-    color: lightblue;
+    color: white;
 }
 
 /* Navbar */
@@ -86,7 +86,7 @@ body {
     bottom: 0;
     right: 0;
     background: rgba(0,0,0,0,6);
-    color: lightblue;
+    color: white;
 
 }
 
@@ -121,6 +121,7 @@ body {
 /* Section : About */
 #about {
     padding: 5rem 0;
+    color: darkgray;
 }
 
 #about h2 {
@@ -238,6 +239,15 @@ body {
     text-transform: uppercase;
 
 }
+
+
+@media screen and (max-width: 1024px) {
+    #navbar{
+        height: auto;
+        width: auto;
+    }
+}
+
 
 @media screen and (max-width: 600px) {
     .contact-form{
