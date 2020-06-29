@@ -68,6 +68,11 @@ body {
     background-color: lightblue;
 }
 
+.icons .project {
+    height: 50px;
+    width: 50%;
+}
+
 /* Showcase Area*/
 #showcase {
     background: url(Images/Picture.jpg);
