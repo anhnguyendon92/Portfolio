@@ -259,6 +259,9 @@ img {
 }
 .skills__text {
     margin-bottom: var(--mv-4);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
 }
 .skills__data {
     display: flex;
@@ -407,7 +410,9 @@ img {
     }
     .home__social-icon {
         margin-bottom: 0;
-        margin-right: var(--mb-4)
+        margin-right: var(--mb-4);
+        width: 45%;
+        height: 45%;
     }
     .home__img {
         width: 457%;
